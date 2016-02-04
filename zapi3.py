@@ -196,3 +196,4 @@ if __name__ == "__main__":
     print(zapi.Graph.find({'graphid':'49931'}, attr_name='graphid'))
     hostid = zapi.Host.find({'ip':"127.0.0.1"}, attr_name='hostid')
     print(hostid)
+
